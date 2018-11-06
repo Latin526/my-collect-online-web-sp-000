@@ -1,5 +1,5 @@
-def my_collect(dvd)
-  dvd = ["STAR WARS", "STAR TREK", "WONDER WOMAN"]
-  my_collect(dvd) do |name|
+def my_collect(arr)
+  arr = ["STAR WARS", "STAR TREK", "WONDER WOMAN"]
+  my_collect(arr) do |name|
     name.spilt(" ").lowercase
 end
